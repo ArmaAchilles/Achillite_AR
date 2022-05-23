@@ -1,0 +1,112 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_AttributesManagerEditorComponent "{54C8DACDCD4AE14E}" {
+   m_AttributeLists {
+    SCR_EditorAttributeList "{5606E7C45FE427EF}" {
+     m_aAttributes {
+      ACL_SkillEditorAttribute "{596A3E82E05DA644}" {
+       m_UIInfo SCR_EditorAttributeUIInfo "{596A3E82EC3B15D9}" {
+        Name "#ACL-Editor_Attribute_Skill_Name"
+       }
+       m_CategoryConfig "{C952695559974DF0}Configs/Editor/AttributeCategories/Group.conf"
+       m_Layout "{680E4985E42137FB}UI/layouts/Editor/Attributes/AttributePrefabs/AttributePrefab_Slider.layout"
+       m_baseValues SCR_EditorAttributeBaseValues "{596A3E8215167FD1}" {
+        m_sSliderValueFormating ""
+        m_iDecimals 0
+       }
+      }
+      ACL_FormationEditorAttribute "{596A4C7C030E20B1}" {
+       m_UIInfo SCR_EditorAttributeUIInfo "{596A4C7C08F3577D}" {
+        Name "#ACL-Editor_Attribute_Formation_Name"
+       }
+       m_CategoryConfig "{C952695559974DF0}Configs/Editor/AttributeCategories/Group.conf"
+       m_Layout "{D1F686225704ADC2}UI/layouts/Editor/Attributes/AttributePrefabs/AttributePrefab_ButtonBox_Selection.layout"
+       m_aValues {
+        SCR_EditorAttributeFloatStringValueHolder "{596A4C7C23D956EA}" {
+         m_Icon "{618827C6C32E294E}UI/Textures/Editor/Attributes/Group/Attribute_Group_Wedge.edds"
+         m_sEntryName "#ACL-Editor_Attribute_Formation_Wedge_Name"
+        }
+        SCR_EditorAttributeFloatStringValueHolder "{596A4C7C2010F35C}" {
+         m_Icon "{C7B09DD7B2ECC7F7}UI/Textures/Editor/Attributes/Group/Attribute_Group_Column.edds"
+         m_sEntryName "#ACL-Editor_Attribute_Formation_Column_Name"
+         m_fEntryFloatValue 1
+        }
+        SCR_EditorAttributeFloatStringValueHolder "{596A4C7C20419704}" {
+         m_Icon "{34B57A1935BC9CA5}UI/Textures/Editor/Attributes/Group/Attribute_Group_StaggeredColumn.edds"
+         m_sEntryName "#ACL-Editor_Attribute_Formation_StaggeredColumn_Name"
+         m_fEntryFloatValue 2
+        }
+        SCR_EditorAttributeFloatStringValueHolder "{596A4C7C2107EBF1}" {
+         m_Icon "{5B00ECEED1286BB9}UI/Textures/Editor/Attributes/Group/Attribute_Group_Line.edds"
+         m_sEntryName "#ACL-Editor_Attribute_Formation_Line_Name"
+         m_fEntryFloatValue 3
+        }
+       }
+       m_iButtonsOnRow 5
+       m_fButtonHeight 90
+      }
+      ACL_StanceEditorAttribute "{596D5D12E90D4947}" {
+       m_UIInfo SCR_EditorAttributeUIInfo "{596D5D12F408688D}" {
+        Name "#ACL-Editor_Attribute_Stance_Name"
+       }
+       m_CategoryConfig "{C952695559974DF0}Configs/Editor/AttributeCategories/Group.conf"
+       m_Layout "{D1F686225704ADC2}UI/layouts/Editor/Attributes/AttributePrefabs/AttributePrefab_ButtonBox_Selection.layout"
+       m_aValues {
+        SCR_EditorAttributeFloatStringValueHolder "{596D5D1013D4F304}" {
+         m_Icon "{D9E917BE8B131338}UI/Textures/Editor/Attributes/Group/Attribute_Group_Stand.edds"
+         m_sEntryName "#ACL-Editor_Attribute_Stance_Stand_Name"
+        }
+        SCR_EditorAttributeFloatStringValueHolder "{596D5D10109ED7E1}" {
+         m_Icon "{19EBDE1312E19F60}UI/Textures/Editor/Attributes/Group/Attribute_Group_Crouch.edds"
+         m_sEntryName "#ACL-Editor_Attribute_Stance_Crouch_Name"
+         m_fEntryFloatValue 1
+        }
+        SCR_EditorAttributeFloatStringValueHolder "{596D5D1010C365D2}" {
+         m_Icon "{E30B4D5B0CA398E9}UI/Textures/Editor/Attributes/Group/Attribute_Group_Prone.edds"
+         m_sEntryName "#ACL-Editor_Attribute_Stance_Prone_Name"
+         m_fEntryFloatValue 2
+        }
+       }
+       m_iButtonsOnRow 5
+       m_fButtonHeight 90
+      }
+     }
+    }
+   }
+  }
+  SCR_CommandActionsEditorComponent "{54A0CA1864DC7D5C}" {
+   m_ActionsLists {
+    SCR_EditorActionList "{56A4A2E0EE3FDA36}" {
+     m_Actions {
+      SCR_WaypointBaseCommandAction "{596A4C4084382694}" {
+       m_Info SCR_UIInfo "{596A4C40922449FE}" {
+        Name "#ACL-EditableEntity_AIWaypoint_Cycle_Name"
+        Icon "{2373DD0E0D31AF81}UI/Textures/Editor/Toolbar/Commanding/Toolbar_Commanding_Waypoint_Cycle.edds"
+       }
+       m_ActionGroup COMMAND_WAYPOINT
+       m_CommandPrefab "{B07925D662D5BC78}PrefabsEditable/Auto/AI/Waypoints/E_AIWaypoint_Cycle.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{596A4C7B334DA595}" {
+     m_sSourceDirectory "{342F5AFA2455DFF7}PrefabsEditable/Modules"
+     m_Prefabs {
+      "{538125A61BA737D2}PrefabsEditable/Modules/E_ModuleEditIntel.et"
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{596A3E84EAF56A55}" {
+     m_sSourceDirectory "{27105A307B79AD73}PrefabsEditable/Auto/AI/Waypoints"
+     m_bExposed 0
+     m_Prefabs {
+      "{B07925D662D5BC78}PrefabsEditable/Auto/AI/Waypoints/E_AIWaypoint_Cycle.et"
+     }
+    }
+   }
+  }
+ }
+}

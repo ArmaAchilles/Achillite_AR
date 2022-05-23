@@ -1,0 +1,13 @@
+ACL_ModuleEditIntelEntity : "{5B0C65FF006E45B9}PrefabsEditable/Modules/E_ModuleBase.et" {
+ ID "56D8A3C5A31488FC"
+ components {
+  SCR_EditableDescriptorComponent "{5966425E7EAD31F0}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5966425E7EAD31FC}" {
+    Name "Edit Intel Module"
+    Description "Edit Intel Module Description"
+    Icon "{206781701A8D8991}UI/Textures/EditorPreviews/Auto/Systems/RestrictionZone/E_EditorRestrictionZoneSmall.edds"
+    m_Image "{206781701A8D8991}UI/Textures/EditorPreviews/Auto/Systems/RestrictionZone/E_EditorRestrictionZoneSmall.edds"
+   }
+  }
+ }
+}

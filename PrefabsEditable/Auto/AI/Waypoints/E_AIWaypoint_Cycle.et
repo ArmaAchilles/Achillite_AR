@@ -1,0 +1,29 @@
+AIWaypointCycle {
+ ID "54C6AE7D8237ADE9"
+ components {
+  ACL_EditableWaypointCycleComponent "{596A95A915E07A35}" {
+   m_EntityType WAYPOINT
+   m_UIInfo SCR_EditableEntityUIInfo "{596A95A92B82CDC5}" {
+    Name "#ACL-EditableEntity_AIWaypoint_Cycle_Name"
+    Icon "{2373DD0E0D31AF81}UI/Textures/Editor/Toolbar/Commanding/Toolbar_Commanding_Waypoint_Cycle.edds"
+    m_aAutoLabels {
+     7 124
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 4166
+  }
+  SCR_EditableEntityVisibilityChildComponent "{596B0DB922F63B14}" {
+   m_State 96
+  }
+  SCR_WaypointAreaMeshComponent "{596B0DB91BA49C48}" {
+   m_vResolution 46
+   m_bStretchMaterial 1
+   m_Material "{0A8FAD171DB3DC49}Assets/Editor/VirtualArea/VirtualArea_01_Focused.emat"
+  }
+  RplComponent "{596B0DB9133B56E6}" {
+  }
+ }
+ coords 4402.904 2.047 11040.032
+ CompletionRadius 5
+}

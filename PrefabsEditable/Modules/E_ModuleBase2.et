@@ -1,0 +1,24 @@
+ACL_ModuleEntityBase {
+ ID "596C104924CE82D6"
+ components {
+  Hierarchy "{596C104924CE82DD}" {
+  }
+  SCR_EditableEntityComponent "{596C1056CDF6239D}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableEntityUIInfo "{596C10579062ED66}" {
+    IconSetName "System_Default"
+    m_aAuthoredLabels {
+     7
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 67
+  }
+  SCR_EditableEntityVisibilityChildComponent "{596C104924CE82EE}" {
+   m_State ACTIVE
+  }
+  RplComponent "{596C104924CE82EC}" {
+  }
+ }
+ coords 0 0 0
+}

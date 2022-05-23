@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B07925D662D5BC78}PrefabsEditable/Auto/AI/Waypoints/E_AIWaypoint_Cycle.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
